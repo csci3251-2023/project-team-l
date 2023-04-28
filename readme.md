@@ -26,3 +26,7 @@ Task 7 involves registering the repo on the team's page and adding the last upda
 ```
 
 # Contributors:
+{% for stu in site.stus %}
+  <p>>><img src="{{stu.image}}">@{{ stu.user }} ({{ stu.name }})</p>
+  <p>&emsp;>>{{ stu.content | markdownify }}</p>
+{% endfor %}
