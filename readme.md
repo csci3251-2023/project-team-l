@@ -32,4 +32,4 @@ Task 7 involves registering the repo on the team's page and adding the last upda
 {% endfor %}
 
 ## Repo last updated:
-site.time
+{{site.time}}
