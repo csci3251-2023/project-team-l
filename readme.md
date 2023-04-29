@@ -30,3 +30,6 @@ Task 7 involves registering the repo on the team's page and adding the last upda
   <p>>><img src="{{s.image}}">@{{ s.user }} ({{ s.name }})</p>
   <p>&emsp;>>{{ s.content | markdownify }}</p>
 {% endfor %}
+
+## Repo last updated:
+site.time
